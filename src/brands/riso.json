@@ -1,0 +1,8 @@
+{
+  "name": "Riso",
+  "palette": [
+    { "hex": "#1A1A2E", "weight": 34 },
+    { "hex": "#FF4D6D", "weight": 33 },
+    { "hex": "#F5EFE6", "weight": 33 }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Cobalt",
+  "palette": [
+    { "hex": "#EAF0FF", "weight": 50 },
+    { "hex": "#1B44FF", "weight": 50 }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Shader Studio — dither, halftone & pixel post-processing</title>
+    <meta name="description" content="Turn any image into a design language — halftone, dither, cross-hatch & ASCII post-processing. Export SVG, PNG, GIF, MP4." />
+    <meta property="og:title" content="Shader Studio" />
+    <meta property="og:description" content="Dither, halftone & pixel post-processing for any brand." />
+  </head>
+  <body>
+    <div id="app">
+      <main id="stage">
+        <canvas id="gl"></canvas>
+        <div id="dropzone-hint">drop an image or video</div>
+      </main>
+      <aside id="panel">
+        <header class="panel-head">
+          <h1>Shader<span>Studio</span></h1>
+          <p class="tagline">design language, any brand</p>
+        </header>
+        <div id="controls"></div>
+        <footer class="credit">
+          made by
+          <a href="https://x.com/rizroze" target="_blank" rel="noopener noreferrer">@rizroze</a>
+        </footer>
+      </aside>
+    </div>
+    <input type="file" id="file-input" accept="image/*,video/*" hidden />
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Ink & Paper",
+  "palette": [
+    { "hex": "#111111", "weight": 50 },
+    { "hex": "#F4F1EA", "weight": 50 }
+  ]
+}

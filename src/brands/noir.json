@@ -1,0 +1,7 @@
+{
+  "name": "Noir",
+  "palette": [
+    { "hex": "#000000", "weight": 50 },
+    { "hex": "#FFFFFF", "weight": 50 }
+  ]
+}

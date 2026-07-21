@@ -1,0 +1,19 @@
+{
+  "name": "shader-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Image/video -> design-language engine. GPU shader effects: halftone, cross-hatch, dither, generative.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3",
+    "mp4-muxer": "^5.1.5"
+  }
+}
